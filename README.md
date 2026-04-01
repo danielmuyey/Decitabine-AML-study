@@ -1,6 +1,5 @@
 # AML-transcriptomics-analysis
 # Create a minimal, reusable analysis workflow template (R)
-# This writes a script you can upload to Zenodo as the reproducible pipeline entry point.
 
 # Cell 1: load libraries
 suppressPackageStartupMessages({
@@ -575,5 +574,6 @@ workflow_lines <- c(
 writeLines(workflow_lines, 'zenodo_workflow_template.R')
 cat('Wrote file: zenodo_workflow_template.R\
 ')
+[![DOI](https://zenodo.org/badge/1198063112.svg)](https://doi.org/10.5281/zenodo.19363943)
 
 
